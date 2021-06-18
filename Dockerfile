@@ -6,4 +6,7 @@ RUN apk update && \
     apk add jq && \
     apk add vim && \
     apk add busybox-extras && \
-    apk add openssh
+    apk add openssh && \
+    apk add iproute2 && \
+    apk add socat && \
+    apk add nginx
