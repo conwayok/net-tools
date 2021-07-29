@@ -8,5 +8,4 @@ RUN apk update && \
     apk add busybox-extras && \
     apk add openssh && \
     apk add iproute2 && \
-    apk add socat && \
-    apk add nginx
+    apk add socat
